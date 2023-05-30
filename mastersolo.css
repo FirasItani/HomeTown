@@ -1,0 +1,155 @@
+body {
+  font-family: 'Happy Monkey', cursive;
+  text-transform: capitalize;
+  text-align: center;
+  margin: 0;
+  /* background-color: #ff7b00; */
+}
+
+.top-div {
+  margin: 0 auto;
+  padding: 10%;
+  background-image: url("imgsolo/icmeler.jpg");
+  background-size: cover;
+}
+
+.visit-turkey {
+  background-color: rgb(114, 111, 116);
+  border-radius: 5px;
+  padding: 10px 10px;
+  width: 300px;
+  margin: 20px auto;
+  font-weight: bold;
+  color: cornsilk;
+  text-shadow: 0 0 15px rgb(10, 9, 9)
+}
+
+#para {
+  background-color: rgb(78, 76, 80);
+  text-shadow: 0 0 5px rgb(229, 255, 0);
+  color: white;
+  width: 450px;
+}
+
+.head-div {
+  border: 1px solid none;
+  border-radius: 20px;
+  padding: 30px;
+  background: linear-gradient(#d4a373, #ccd5ae);
+  margin: 20px;
+  color: black;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+.title {
+  display: block;
+  color: #1d3557;
+  text-shadow: 0 0 10px #00b4d8;
+}
+
+.div-s {
+  font-weight: bold;
+  width: 400px;
+  /* margin: 0 15px;
+  padding: 30px 20px; */
+  /* border: 1px solid #00b4d8; */
+  border-radius: 20px;
+}
+
+.div-s:hover {
+  width: 500px;
+  font-size: x-large;
+}
+
+#div-one:hover {
+  background-color: rgb(7, 88, 208);
+  color: white;
+}
+
+#div-two:hover {
+  background-color: brown;
+  color: white;
+}
+
+#div-three:hover {
+  background-color: darkorange;
+  color: white;
+}
+
+.image-s {
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  margin: 10px auto;
+  border-radius: 50px;
+  /* border: 1px solid #00b4d8; */
+}
+
+#image-one {
+  background-image: url("imgsolo/kabak.jpg");
+}
+
+.image-s:hover {
+  width: 400px;
+  height: 400px;
+}
+
+#image-two {
+  background-image: url("imgsolo/wow.jpg");
+}
+
+#image-three {
+  background-image: url("imgsolo/butterfly.jpg");
+}
+
+.place-name {
+  color: black;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-shadow: 1px 1px 35px yellow;
+}
+
+#link {
+  font-weight: 800;
+  color: blue;
+  text-decoration: none;
+}
+
+.last-div {
+  display: flex;
+  justify-content: center;
+  border-bottom: 3px solid #00b4d8;
+  width: 50%;
+  margin: 50px auto;
+  padding: 30px 0;
+  border-radius: 30px;
+  background: linear-gradient(#00b4d8, #ccd5ae);
+}
+
+.my-image {
+  background-image: url("../img/giphy.webp");
+  background-size: cover;
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 400px;
+  height: 200px;
+  margin: 0 50px;
+}
+
+.foot-div {
+  width: 400px;
+  font-size: bold;
+  padding: 0 20px;
+}
+
+.foot-div h1 {
+  color: gold;
+}
+
+.foot-div h4 {
+  border: 2px solid brown;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
